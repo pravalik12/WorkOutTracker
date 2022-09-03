@@ -20,7 +20,7 @@ import com.workout.app.exception.ResourceNotFoundException;
 import com.workout.app.model.Employee;
 import com.workout.app.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:51654")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
